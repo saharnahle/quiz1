@@ -124,7 +124,7 @@ The commits C<sub>1</sub>, C<sub>2</sub>, ... are numbered in sequence, which me
 
 Question 7
 ----------
-You have three files in your working directory: `.gitignore`, `A.txt`, `B.txt` and `code.py`. The file `.gitignore` contains the following: `*.txt`. We run the following commands:
+You have four files in your working directory: `.gitignore`, `A.txt`, `B.txt` and `code.py`. The file `.gitignore` contains the following: `*.txt`. We run the following commands:
 
 1. git add *
 2. git commit -m "added all the files"
@@ -164,7 +164,7 @@ You need to specify where ``HEAD``, ``master`` and ``experiment`` will be after 
 
 Question 10:
 -----------
-We khttps://github.com/akomaty/quiz1.gitnow that instead for adding then commiting, we can use the command ``git commit -m "my message" -a``. Here the ``-a`` flag adds all the modified files then do the commit.
+We know that instead for adding then commiting, we can use the command ``git commit -m "my message" -a``. Here the ``-a`` flag adds all the modified files then do the commit.
 Suppose the following scenario: in the working directory, everything in up-to-date with your git repository. Now you create a new file named ``code.py``. Then to put it under version control, you run the following:
 
 ``git commit -m "added code.py" -a``
