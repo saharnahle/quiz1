@@ -2,7 +2,7 @@
 
 ## What you should do:
 
-1. Create a branch with your name and commit your changes to it.
+1. If you did not fork, create a branch with your name and commit your changes to it.
 2. **To check the correct answers**: edit the README document and replace the ``[ ]`` with ``[x]`` to mark the correct answers.
 
 Question 1
@@ -124,7 +124,7 @@ The commits C<sub>1</sub>, C<sub>2</sub>, ... are numbered in sequence, which me
 
 Question 7
 ----------
-You have three files in your working directory: `.gitignore`, `A.txt`, `B.txt` and `code.py`. The file `.gitignore` contains the following: `*.txt`. We run the following commands:
+You have four files in your working directory: `.gitignore`, `A.txt`, `B.txt` and `code.py`. The file `.gitignore` contains the following: `*.txt`. We run the following commands:
 
 1. git add *
 2. git commit -m "added all the files"
@@ -180,3 +180,12 @@ Suppose the following scenario: in the working directory, everything in up-to-da
 Is this correct? Explain why.
 No, since the file still untracked so you have to stage before run the command.
 
+
+Exercise 11:
+-----------
+To create a new branch and checkout to it we can use:
+
+- [ ] git checkout -b "newbranch"
+- [ ] git branch -v
+- [ ] git checkout "newbranch"
+- [ ] git checkout master
