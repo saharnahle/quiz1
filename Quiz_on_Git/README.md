@@ -2,7 +2,7 @@
 
 ## What you should do:
 
-1. Create a branch with your name and commit your changes to it.
+1. If you did not fork, create a branch with your name and commit your changes to it.
 2. **To check the correct answers**: edit the README document and replace the ``[ ]`` with ``[x]`` to mark the correct answers.
 
 Question 1
@@ -164,10 +164,19 @@ You need to specify where ``HEAD``, ``master`` and ``experiment`` will be after 
 
 Question 10:
 -----------
-We know that instead for adding then commiting, we can use the command ``git commit -m "my message" -a``. Here the ``-a`` flag adds all the modified files then do the commit.
+We khttps://github.com/akomaty/quiz1.gitnow that instead for adding then commiting, we can use the command ``git commit -m "my message" -a``. Here the ``-a`` flag adds all the modified files then do the commit.
 Suppose the following scenario: in the working directory, everything in up-to-date with your git repository. Now you create a new file named ``code.py``. Then to put it under version control, you run the following:
 
 ``git commit -m "added code.py" -a``
 
 Is this correct? Explain why.
 
+
+Exercise 11:
+-----------
+To create a new branch and checkout to it we can use:
+
+- [ ] git checkout -b "newbranch"
+- [ ] git branch -v
+- [ ] git checkout "newbranch"
+- [ ] git checkout master
