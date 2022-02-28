@@ -185,7 +185,7 @@ Exercise 11:
 -----------
 To create a new branch and checkout to it we can use:
 
-- [ ] git checkout -b "newbranch"
+- [X] git checkout -b "newbranch"
 - [ ] git branch -v
 - [ ] git checkout "newbranch"
 - [ ] git checkout master
